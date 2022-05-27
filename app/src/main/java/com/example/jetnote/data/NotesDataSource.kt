@@ -1,14 +1,22 @@
-package com.example.jetnote.data
+package com.bawp.jetnote.data
 
 import com.example.jetnote.model.Note
 
 class NotesDataSource {
-    fun loadNotes():List<Note>{
+    fun loadNotes(): List<Note> {
         return listOf(
-            Note(title = "Note 1", description = "Des 1"),
-            Note(title = "Note 2", description = "Des 2"),
-            Note(title = "Note 3", description = "Des 3"),
-            Note(title = "Note 4", description = "Des 4"),
+
+            Note(title = "A good day", description = "We went on a vacation by the lake"),
+            Note(title = "Android Compose", description = "Working on Android Compose course today"),
+            Note(title = "Keep at it...", description = "Sometimes things just happen"),
+            Note(title = "A movie day", description = "Watching a movie with family today"),
+            Note(title = "A movie day", description = "Watching a movie with family today"),
+            Note(title = "A movie day", description = "Watching a movie with family today"),
+            Note(title = "A movie day", description = "Watching a movie with family today"),
+            Note(title = "A movie day", description = "Watching a movie with family today"),
+            Note(title = "A movie day", description = "Watching a movie with family today"),
+            Note(title = "A movie day", description = "Watching a movie with family")
+
         )
     }
 }
